@@ -141,6 +141,6 @@ $$\alpha_{t, i} = \frac{\exp(e_{t, i})}{\sum_{k=1}^{T_{obs}} \exp(e_{t, k})}, \q
 ---
 
 ## 👨‍💻 Author
-**Lakshay**  
+**LKSHAY TYAGI**  
 *SRM Institute of Science and Technology, Delhi-NCR*  
 *Specialization: Autonomous Systems, Robotics & Embedded Intelligence*
