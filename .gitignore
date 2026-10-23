@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints and large binaries
+checkpoints/*.pt
+checkpoints/*.pth
+!checkpoints/.gitkeep
+
+# Environments & IDEs
+.vscode/
+.idea/
+venv/
+env/
+.env
+
+# Output plots / cache
+*.log
