@@ -8,13 +8,13 @@
             "ade_meters": 0.8813,
             "fde_meters": 2.1548,
             "rmse_meters": 1.1028,
-            "latency_ms_per_agent": 0.028
+            "latency_ms_per_agent": 0.0291
         },
         "seq2seq_attention_lstm": {
             "ade_meters": 0.6793,
             "fde_meters": 1.7869,
             "rmse_meters": 0.7563,
-            "latency_ms_per_agent": 1.9826,
+            "latency_ms_per_agent": 1.6558,
             "ade_reduction_percent": 22.91,
             "fde_reduction_percent": 17.07
         }

@@ -115,12 +115,26 @@ python scripts/generate_dataset.py
 python -m src.train
 ```
 
-### 4. Run Benchmark & Evaluation
+### 4. Interactive Live Autonomy Simulation
+```bash
+# Normal multi-agent tracking (Safe clearance > 2.0m)
+python demo_live.py
+
+# Critical intersection crossing scenario with dynamic collision detection & TTC alerts
+python demo_live.py --scenario collision
+```
+
+### 5. Edge Hardware Latency & Throughput Profiler
+```bash
+python scripts/edge_latency_profiler.py
+```
+
+### 6. Run Full Quantitative Benchmark & Evaluation
 ```bash
 python evaluate.py
 ```
 
-### 5. Generate Visual Dashboard & Animations
+### 7. Generate Visual Dashboard & Animations
 ```bash
 python -m src.visualizer
 ```
