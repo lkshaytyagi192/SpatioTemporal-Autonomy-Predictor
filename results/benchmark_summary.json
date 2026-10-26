@@ -1,0 +1,27 @@
+{
+    "test_dataset_samples": 150,
+    "observation_horizon_steps": 8,
+    "prediction_horizon_steps": 12,
+    "dt_seconds": 0.4,
+    "models": {
+        "constant_velocity_baseline": {
+            "ade_meters": 0.8813,
+            "fde_meters": 2.1548,
+            "rmse_meters": 1.1028,
+            "latency_ms_per_agent": 0.028
+        },
+        "seq2seq_attention_lstm": {
+            "ade_meters": 0.6793,
+            "fde_meters": 1.7869,
+            "rmse_meters": 0.7563,
+            "latency_ms_per_agent": 1.9826,
+            "ade_reduction_percent": 22.91,
+            "fde_reduction_percent": 17.07
+        }
+    },
+    "collision_risk_audit": {
+        "evaluated_agents": 20,
+        "critical_risk_events_detected": 1,
+        "caution_proximity_events": 0
+    }
+}
